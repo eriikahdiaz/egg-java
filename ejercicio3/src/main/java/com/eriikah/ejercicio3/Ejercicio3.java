@@ -4,13 +4,17 @@
 
 package com.eriikah.ejercicio3;
 
+import java.io.IOException;
+
 /**
  *
  * @author erikah
  */
 public class Ejercicio3 {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public static void main(String[] args) throws IOException {        
+        Juego myJuego = new Juego();
+        myJuego.IniciarJuego();
+        
     }
 }
